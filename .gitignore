@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/live_background/node_modules
+/live_background/.pnp
+/live_background/.pnp.js
+
+# testing
+/live_background/coverage
+
+# production
+/live_background/build
+
+# misc
+/live_background/.DS_Store
+/live_background/.env.local
+/live_background/.env.development.local
+/live_background/.env.test.local
+/live_background/.env.production.local
+
+/live_background/npm-debug.log*
+/live_background/yarn-debug.log*
+/live_background/yarn-error.log*
