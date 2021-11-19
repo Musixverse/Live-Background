@@ -1,6 +1,7 @@
 import React from 'react'
+import Sketch from '../../node_modules/sketch/index'
 
-const livebg = () => {
+const LiveBG = () => {
     function loadingBackgroundPills() {
         var ALPHA, COLORS, NUM_BANDS, NUM_PARTICLES, Particle, SCALE, SIZE, SMOOTHING, SPEED, SPIN;
     
@@ -145,4 +146,4 @@ const livebg = () => {
     )
 }
 
-export default livebg
+export default LiveBG
