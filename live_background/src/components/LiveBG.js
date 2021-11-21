@@ -1,5 +1,4 @@
 import React from 'react'
-import Sketch from '../../node_modules/sketch/index'
 
 const LiveBG = () => {
     function loadingBackgroundPills() {
